@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class BasePage {
 
-	WebDriver driver;
+	protected WebDriver driver;
 
 	private By pageHeader = By.xpath("//h1/span");
 
