@@ -23,7 +23,7 @@ public class CustomerLoginTest extends BaseTest {
 	        String lastName = RandomDataGenerator.generateRandomLastName();
 	        String email = RandomDataGenerator.generateRandomEmail();
 	        String password = RandomDataGenerator.generateRandomPassword();
-
+             System.out.println("test");
 	        createAccountPage.FillCreateForm(firstName, lastName, email, password);
 	 
 	    
